@@ -1,2 +1,5 @@
-# TouchDesigner-DMX
+# TouchDesigner DMX Mapping
+
+## Idee
+
 DMX Mapping with TouchDesigner
