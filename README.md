@@ -7,3 +7,8 @@ For all those who are not yet familiar with TouchDesigner: You get a professiona
 
 LEDs or fixtures are arranged in SOPs in 3D space. Each individual point simbolises a pixel or DMX parameter. The SOP input is displayed on a selectable plane in order to display video content (TOPs) on the LEDs/fixtures. 
 
+## Example
+
+![simple_example](https://github.com/yastefan/TouchLED-DMX/blob/main/Assets/simple.jpg)
+
+![simple2_example](https://github.com/yastefan/TouchLED-DMX/blob/main/Assets/simple2.jpg)
