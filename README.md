@@ -14,3 +14,8 @@ A minimal setup consists of an SOP, the **Mapper** component and the **DMX_Unive
 In the following example, there are three LED strips with 10 LEDs each arranged as a triangle and a circle with 40 LEDs. The **Visualizer** components are also used here to simulate the behaviour of the LED strips.
 
 ![simple2_example](https://github.com/yastefan/TouchLED-DMX/blob/main/Assets/simple2.jpg)
+
+When working with DMX fixtures such as spotlights or moving lights, it quickly becomes necessary to be able to operate certain DMX channels directly. For example, most fixtures have a dimmer channel that must have a value greater than zero for the fixture to light up. If the colour values of the fixtures are realized via a mapping, the dimmer values must also be set. This could also be realized via a white image, but if you also want to set the shutter value, the pan/tilt values and the zoom value, this procedure quickly becomes cumbersome and confusing.
+This is why there is the **Static_Channels** component, in which you can create and control channels.
+
+![static_channels](https://github.com/yastefan/TouchLED-DMX/blob/main/Assets/static.jpg)
